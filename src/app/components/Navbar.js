@@ -105,7 +105,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Dropdown */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-surface border-t border-outline-variant/20 shadow-xl absolute w-full left-0" >
+          <div className="md:hidden bg-surface border-t border-outline-variant/20 shadow-xl absolute top-full w-full left-0 max-h-[calc(100vh-5rem)] overflow-y-auto" >
             <div className="flex flex-col px-gutter py-6 gap-6" >
               <Link className="font-label-caps text-label-caps text-primary uppercase border-b border-outline-variant/10 pb-2"  href="/" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
               <Link className={`font-label-caps text-label-caps uppercase border-b border-outline-variant/10 pb-2 ${pathname === '/about-us' ? 'text-primary' : 'text-on-surface-variant'}`}  href="/about-us" onClick={() => setIsMobileMenuOpen(false)}>About Us</Link>

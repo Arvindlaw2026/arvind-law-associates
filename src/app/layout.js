@@ -1,7 +1,9 @@
 import { Inter, Playfair_Display } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ClientWidgets from './components/ClientWidgets';
 
 
 const inter = Inter({
@@ -51,10 +53,24 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
       </head>
+      {/* Google Analytics */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-L26V9H564K"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-L26V9H564K');
+        `}
+      </Script>
       <body className="min-h-full flex flex-col bg-background text-on-background font-body-md antialiased" >
         <Navbar />
         <main className="flex-grow" >{children}</main>
         <Footer />
+        <ClientWidgets />
       </body>
     </html>
   );

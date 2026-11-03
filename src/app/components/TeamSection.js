@@ -43,7 +43,7 @@ export default function TeamSection({
   subtitle = 'The People Behind Arvind Law Associates' 
 }) {
   return (
-    <section id="team" className={`py-section-gap bg-surface relative overflow-hidden scroll-mt-28 ${className}`}>
+    <section id="team" className={`py-section-gap bg-surface relative overflow-hidden scroll-mt-20 md:scroll-mt-28 ${className}`}>
       {/* Background Decorative Accents */}
       <div className="absolute top-0 right-1/4 w-96 h-96 bg-tertiary-fixed-dim/5 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none" />

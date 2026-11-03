@@ -2,7 +2,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 
 export default function blogDetailsPage() {
   return (
-    <main className="pt-24">
+    <main className="pt-20 md:pt-28">
       <div className="animate-in fade-in duration-500">
         
         <Breadcrumb title="Cyber Crime and Online Fraud in India" paths={[{href: "/blogs/cyber-crime", name: "Blog"}, {name: "Cyber Crime and Online Fraud..."}]} />

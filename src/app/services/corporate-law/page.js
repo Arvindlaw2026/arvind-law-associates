@@ -2,7 +2,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 
 export default function CorporateLawPage() {
   return (
-    <main className="pt-24 bg-background text-on-background font-body-md antialiased">
+    <main className="pt-20 md:pt-28 bg-background text-on-background font-body-md antialiased">
       <Breadcrumb 
         title="Corporate & Commercial Law" 
         paths={[{name: "Services", href: "/services"}, {name: "Corporate Law"}]} 

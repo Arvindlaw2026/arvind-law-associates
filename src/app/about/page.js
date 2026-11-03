@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function AboutPage() {
   return (
-    <div className="bg-background text-on-background font-body-md antialiased pt-24" >
+    <div className="bg-background text-on-background font-body-md antialiased pt-20 md:pt-28" >
       <div>
   {/* TopNavBar Component */}
   

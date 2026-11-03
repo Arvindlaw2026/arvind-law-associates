@@ -104,12 +104,75 @@
 @layer base {
   html {
     scroll-behavior: smooth;
-    scroll-padding-top: 120px;
+    scroll-padding-top: 80px;
+  }
+
+  @media (min-width: 768px) {
+    html {
+      scroll-padding-top: 112px;
+    }
   }
   
   body {
     background-color: var(--color-background);
     color: var(--color-on-background);
     font-family: var(--font-body-md);
+  }
+}
+
+/* ── react-floating-whatsapp fixes ── */
+.floating-whatsapp-popup {
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  max-height: 80vh !important;
+}
+
+.floating-whatsapp-chat-body {
+  flex: 1 1 auto !important;
+  overflow-y: auto !important;
+  min-height: 0 !important;
+}
+
+.floating-whatsapp-input {
+  flex-shrink: 0 !important;
+}
+
+/* Fallback — some versions use these class names */
+[class*="chatBox"] {
+  display: flex !important;
+  flex-direction: column !important;
+  height: min(480px, 80vh) !important;
+  overflow: hidden !important;
+}
+
+[class*="chatBody"] {
+  flex: 1 1 auto !important;
+  overflow-y: auto !important;
+  min-height: 0 !important;
+}
+
+[class*="chatFooter"],
+[class*="chatInput"] {
+  flex-shrink: 0 !important;
+}
+
+/* WhatsApp floating button mobile stabilization */
+.floating-whatsapp-button,
+[class*="whatsappButton"] {
+  position: fixed !important;
+  transform: translate3d(0, 0, 0) !important;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+  backface-visibility: hidden !important;
+  -webkit-backface-visibility: hidden !important;
+  will-change: transform !important;
+  contain: layout paint !important;
+}
+
+@media (max-width: 767px) {
+  .floating-whatsapp-button,
+  [class*="whatsappButton"] {
+    bottom: calc(1.25rem + env(safe-area-inset-bottom, 0px)) !important;
+    right: calc(1.25rem + env(safe-area-inset-right, 0px)) !important;
   }
 }

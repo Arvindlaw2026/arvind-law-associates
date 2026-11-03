@@ -2,7 +2,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 
 export default function BlogWillsPage() {
   return (
-    <main className="pt-24">
+    <main className="pt-20 md:pt-28">
       <div className="animate-in fade-in duration-500">
         
         <Breadcrumb 

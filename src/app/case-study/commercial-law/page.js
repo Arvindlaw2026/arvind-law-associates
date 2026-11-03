@@ -2,7 +2,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 
 export default function commercialCaseStudyPage() {
   return (
-    <main className="pt-24">
+    <main className="pt-20 md:pt-28">
       <div className="animate-in fade-in duration-500">
         <Breadcrumb title="Commercial Law Case Studies" paths={[{href: "/case-study", name: "Case Studies"}, {name: "Commercial Law Case Studies"}]} />
         <section className="bg-surface py-24">

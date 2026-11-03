@@ -3,7 +3,7 @@ import TeamSection from '../components/TeamSection';
 
 export default function aboutUsPage() {
   return (
-    <main className="pt-24" >
+    <main className="pt-20 md:pt-28" >
       <div className="animate-in fade-in duration-500" >
   {/* Preloader */}
   {/* Search Form */}

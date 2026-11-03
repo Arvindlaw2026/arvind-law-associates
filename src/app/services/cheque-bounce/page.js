@@ -2,7 +2,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 
 export default function ChequeBouncePage() {
   return (
-    <main className="pt-24 bg-background text-on-background font-body-md antialiased">
+    <main className="pt-20 md:pt-28 bg-background text-on-background font-body-md antialiased">
       <Breadcrumb 
         title="Cheque Bounce Cases" 
         paths={[{name: "Services", href: "/services"}, {name: "Cheque Bounce Cases"}]} 

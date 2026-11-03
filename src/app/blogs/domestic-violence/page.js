@@ -2,7 +2,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 
 export default function BlogDVPage() {
   return (
-    <main className="pt-24">
+    <main className="pt-20 md:pt-28">
       <div className="animate-in fade-in duration-500">
         
         <Breadcrumb title="Domestic Violence and Cruelty" paths={[{href: "/blogs/domestic-violence", name: "Blog"}, {name: "Domestic Violence and Cruelty"}]} />
