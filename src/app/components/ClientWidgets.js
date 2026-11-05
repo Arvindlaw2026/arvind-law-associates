@@ -1,5 +1,6 @@
 'use client';
 import dynamic from 'next/dynamic';
+import ScrollToTop from './ScrollToTop';
 
 const WhatsappWidget = dynamic(() => import('./WhatsappWidget'), {
   loading: () => null,
@@ -7,6 +8,11 @@ const WhatsappWidget = dynamic(() => import('./WhatsappWidget'), {
 });
 
 export default function ClientWidgets() {
-  return <WhatsappWidget />;
+  return (
+    <>
+      <WhatsappWidget />
+      <ScrollToTop />
+    </>
+  );
 }
 

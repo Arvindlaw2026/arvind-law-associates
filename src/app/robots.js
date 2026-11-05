@@ -1,4 +1,4 @@
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.arvindlawassociates.com';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.arvindlawchamber.com';
 
 /**
  * Next.js App Router dynamic robots.txt generation.

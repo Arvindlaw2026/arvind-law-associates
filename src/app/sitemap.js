@@ -1,4 +1,4 @@
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.arvindlawassociates.com';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.arvindlawchamber.com';
 
 /**
  * Next.js App Router dynamic Sitemap generation.
@@ -154,6 +154,20 @@ export default function sitemap() {
       lastModified: currentDate,
       changeFrequency: 'monthly',
       priority: 0.7,
+    },
+
+    // --- Legal & Compliance Pages ---
+    {
+      url: `${BASE_URL}/privacy-policy`,
+      lastModified: currentDate,
+      changeFrequency: 'yearly',
+      priority: 0.5,
+    },
+    {
+      url: `${BASE_URL}/terms-and-conditions`,
+      lastModified: currentDate,
+      changeFrequency: 'yearly',
+      priority: 0.5,
     },
   ];
 }
