@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import TeamSection from './components/TeamSection';
+import ReviewsSection from './components/ReviewsSection';
 
 export default function HomePage() {
   return (
@@ -196,6 +197,8 @@ export default function HomePage() {
     </section>
     {/* Team Section */}
     <TeamSection />
+    {/* Client Reviews Section */}
+    <ReviewsSection />
     {/* Google Review Section */}
     <section className="py-16 bg-surface-container-low border-b border-outline-variant/20">
       <div className="px-gutter max-w-container-max mx-auto">
