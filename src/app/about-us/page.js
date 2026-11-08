@@ -26,7 +26,7 @@ export default function aboutUsPage() {
               </div>
             </div>
             <div>
-              <img className="w-full rounded shadow-sm object-cover" src="/assets/img/Golden Light in the Courthouse Corridor.png" alt="High Court Corridor and Legal Representation - Arvind Law Associates" />
+              <img className="w-full rounded shadow-sm object-cover" src="/assets/img/Three Indian Barristers in a Sunlit Courthouse.png" alt="Three Indian Barristers in a Sunlit Courthouse - Arvind Law Associates" />
             </div>
           </div>
         </div>

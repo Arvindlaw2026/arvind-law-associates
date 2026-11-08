@@ -14,7 +14,7 @@ export default function chequebouncePage() {
                 </div>
                 <article className="prose prose-lg max-w-none text-on-surface-variant font-body-lg">
                   <h2 className="font-headline-lg font-bold text-4xl md:text-5xl text-primary mb-8 pb-4 border-b border-outline-variant/30">CHEQUE BOUNCE / DISHONOUR OF CHEQUES</h2>
-                  <h3 className="font-headline-md text-primary mt-8 mb-4">Legal Assistance in Cheque Dishonour Matters</h3>
+                  <h3 className="font-headline-md font-bold text-xl md:text-2xl text-primary mt-8 mb-4">Legal Assistance in Cheque Dishonour Matters</h3>
                   <li className="mb-2">At Arvind Law Associates, we advise and represent clients in proceedings arising from dishonour of cheques under the Negotiable Instruments Act, 1881.</li>
                   <li className="mb-2">Our assistance includes examination of the underlying transaction, statutory notices, preparation and filing of complaints, evidence, trial proceedings, settlement and compounding, as well as representation in appellate proceedings.</li>
                   <h3 className="font-headline-md font-bold text-primary text-2xl md:text-3xl mb-6 mt-12 border-b border-outline-variant/30 pb-2">Case Study 1: Cheque Dishonour – Recovery Through Statutory Proceedings</h3>
@@ -47,10 +47,10 @@ export default function chequebouncePage() {
                   <li className="mb-2">Following a trial in a cheque dishonour matter, the complainant obtained a judgment of conviction and an order relating to compensation. The accused challenged the judgment before the appellate Court.</li>
                   <h4 className="font-headline-sm text-primary mb-2 mt-6">Our Approach</h4>
                   <li className="mb-2">We represented the complainant in the appellate proceedings and addressed the issues raised against the trial court judgment, including matters concerning:</li>
-                  <h3 className="font-headline-md text-primary mt-8 mb-4">Statutory presumptions under the Negotiable Instruments Act;</h3>
-                  <h3 className="font-headline-md text-primary mt-8 mb-4">The underlying transaction and evidence;</h3>
-                  <h3 className="font-headline-md text-primary mt-8 mb-4">Service and compliance relating to the statutory notice;</h3>
-                  <h3 className="font-headline-md text-primary mt-8 mb-4">The findings recorded by the trial Court; and</h3>
+                  <h3 className="font-headline-md font-bold text-xl md:text-2xl text-primary mt-8 mb-4">Statutory presumptions under the Negotiable Instruments Act;</h3>
+                  <h3 className="font-headline-md font-bold text-xl md:text-2xl text-primary mt-8 mb-4">The underlying transaction and evidence;</h3>
+                  <h3 className="font-headline-md font-bold text-xl md:text-2xl text-primary mt-8 mb-4">Service and compliance relating to the statutory notice;</h3>
+                  <h3 className="font-headline-md font-bold text-xl md:text-2xl text-primary mt-8 mb-4">The findings recorded by the trial Court; and</h3>
                   <li className="mb-2">The compensation awarded.</li>
                   <li className="mb-2">We also opposed the application seeking suspension of the sentence, while protecting the complainant's interests during the pendency of the appeal.</li>
                   <h4 className="font-headline-sm text-primary mb-2 mt-6">Outcome</h4>
@@ -59,7 +59,7 @@ export default function chequebouncePage() {
                   <li className="mb-2">A cheque dishonour matter does not necessarily conclude with the trial Court judgment. Effective representation at the appellate stage requires careful examination of the trial record, evidence, statutory presumptions and the grounds raised in appeal.</li>
                   <h4 className="font-headline-sm text-primary mb-2 mt-6">Our Approach to Cheque Dishonour Matters</h4>
                   <li className="mb-2">At Arvind Law Associates, we provide end-to-end legal assistance in cheque dishonour matters, from the initial examination of the transaction and statutory notice through trial and appellate proceedings.</li>
-                  <h3 className="font-headline-md text-primary mt-8 mb-4">Our services include:</h3>
+                  <h3 className="font-headline-md font-bold text-xl md:text-2xl text-primary mt-8 mb-4">Our services include:</h3>
                   <li className="mb-2">Cheque Dishonour Notices | Section 138 NI Act Complaints | Defence in Cheque Bounce Cases | Evidence & Trial | Settlement & Compounding | Compensation Proceedings | Appeals | Revision Proceedings | Recovery & Enforcement</li>
                   <li className="mb-2">Each matter is assessed on its individual facts, the underlying transaction, documentary evidence and compliance with the statutory requirements.</li>
                   <li className="mb-2">Our objective is to ensure that clients understand their legal remedies and that appropriate proceedings are initiated and pursued in accordance with law.</li>

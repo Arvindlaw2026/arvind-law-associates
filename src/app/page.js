@@ -12,7 +12,7 @@ export default function HomePage() {
     {/* Hero Section */}
     <section className="relative bg-primary pt-10 md:pt-20 pb-0 overflow-hidden" >
       <div className="absolute inset-0 z-0" >
-        <div className="w-full h-full bg-cover bg-center opacity-30 mix-blend-overlay"  data-alt="Subtle background of legal architecture or library" style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuC81Vmji-b4Ejzfe9m7tiM_SEgtf2bPWFBKKO1QGpP5Z660w3juR41EB5XHQMvpp_B1gsAZbYu0cPEK0_zfuS2tvAvJR_UazTD-59NBj57D-7ZxwuG3fotw0GbwNmvu9VLJ3tsU20X3mQew7l_KyVJ34OFIxE6yAKZzG_iIfKsP4a-BQVQtjkzqs12719dViM0ri-epBtNmcIc8o-nORw0VA61ZHjA2Q63BZNG95F6vYkkMCcanGiKW")'}} />
+        <div className="hidden md:block w-full h-full bg-cover bg-center opacity-30 mix-blend-overlay"  data-alt="Subtle background of legal architecture or library" style={{backgroundImage: 'url("/assets/img/hero-bg.webp")'}} />
         <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/95 to-primary/80"  />
       </div>
       <div className="relative z-10 w-full px-gutter max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-gutter items-center min-h-0 md:min-h-[600px]" >
@@ -36,7 +36,10 @@ export default function HomePage() {
           </div>
         </div>
         <div className="relative h-full flex items-end justify-center md:justify-start pt-4 md:pt-20" >
-          <img className="relative z-10 max-h-[350px] md:max-h-[600px] object-contain drop-shadow-2xl rounded-xl" alt="Hero Image" src="/assets/img/hero-image.webp" fetchPriority="high" width="540" height="720" />
+          <picture className="relative z-10">
+            <source media="(max-width: 768px)" srcSet="/assets/img/hero-image-mobile.webp" type="image/webp" />
+            <img className="relative z-10 max-h-[350px] md:max-h-[600px] object-contain drop-shadow-2xl rounded-xl" alt="Hero Image" src="/assets/img/hero-image.webp" fetchPriority="high" width="540" height="720" />
+          </picture>
           <div className="absolute top-10 -right-4 lg:-right-12 xl:-right-16 text-right z-20 hidden lg:block bg-primary/70 backdrop-blur-md p-8 rounded-2xl border border-white/10 shadow-2xl" >
             <div className="flex flex-col items-end mb-6" >
               <div className="w-16 h-16 border-2 border-tertiary-fixed-dim rounded-full flex items-center justify-center mb-4" >
@@ -144,7 +147,7 @@ export default function HomePage() {
     <section className="bg-surface border-y border-outline-variant/20" >
       <div className="grid grid-cols-1 md:grid-cols-2" >
         <div className="h-[500px] md:h-auto" >
-          <img className="w-full h-full object-cover grayscale-[30%]" alt="Legal Books and Gavel"  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsLrVmrGKuT37zPIFXTsOkO4n959Yf3I3nmOj3xQX13JaQPPKyZieTuR4dd1AC_ws4UBKPm0Kiap3Iu9NFHqSPANOT1U2vobbBkvTvCfSOjjraAr789WA-SNBescfbbhCbay3Hcmrjj-ooII33G1FkyUIYfikCEovUMwxgcsWDw4gnkAAms0lAQgdhvcZ63xODWGb9GhODQW36nLeXc1k0IyUucvLelXKCQ5krz4RAgXof9y62fPgi" />
+          <img className="w-full h-full object-cover grayscale-[30%]" alt="Legal Books and Gavel" loading="lazy" width="600" height="500" src="/assets/img/advocate-books.webp" />
         </div>
         <div className="p-12 md:p-20 flex flex-col justify-center bg-surface" >
           <h2 className="font-label-caps text-label-caps text-tertiary-dark uppercase mb-4 tracking-widest" >About The Advocate</h2>

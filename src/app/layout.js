@@ -51,14 +51,19 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <link rel="preload" as="image" href="/assets/img/hero-bg.webp" type="image/webp" media="(min-width: 768px)" fetchPriority="high" />
+        <link rel="preload" as="image" href="/assets/img/hero-image-mobile.webp" type="image/webp" media="(max-width: 768px)" fetchPriority="high" />
+        <link rel="preload" as="image" href="/assets/img/hero-image.webp" type="image/webp" media="(min-width: 769px)" fetchPriority="high" />
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
       </head>
       {/* Google Analytics */}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-L26V9H564K"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
-      <Script id="google-analytics" strategy="afterInteractive">
+      <Script id="google-analytics" strategy="lazyOnload">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}

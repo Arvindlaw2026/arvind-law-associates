@@ -1,0 +1,16 @@
+# Arvind Law Associates
+
+> Advocates & Legal Consultants based in Bengaluru, Karnataka, India. Legal representation and advisory services before the High Court of Karnataka, District Courts, Family Courts, and specialised forums.
+
+## Core Pages
+- [Home](https://www.arvindlawchamber.com/): Official chambers homepage, practice summary, client testimonials, and consult details.
+- [About Us](https://www.arvindlawchamber.com/about-us): Firm history, experience, advocate profile, and areas of practice.
+- [Practice Areas](https://www.arvindlawchamber.com/services): Overview of legal services across family, property, criminal, commercial, and cyber law.
+- [Contact](https://www.arvindlawchamber.com/contact): Office address, appointment booking, contact number, and consultation enquiry.
+
+## Legal Services & Case Studies
+- [Family Law](https://www.arvindlawchamber.com/case-study/family-law): Mutual consent divorce, contested divorce, child custody, maintenance, and domestic violence.
+- [Property Law](https://www.arvindlawchamber.com/case-study/property-law): Title verification, due diligence, sale deeds, registration, and civil property disputes.
+- [Commercial Law](https://www.arvindlawchamber.com/case-study/commercial-law): Contract drafting, business transactions, breach of agreement, and commercial litigation.
+- [Cheque Dishonour](https://www.arvindlawchamber.com/case-study/cheque-bounce): Section 138 Negotiable Instruments Act legal notices, complaints, trials, and appellate proceedings.
+- [Corporate Law](https://www.arvindlawchamber.com/case-study/corporate): Corporate advisory, compliance, shareholder agreements, and corporate disputes.

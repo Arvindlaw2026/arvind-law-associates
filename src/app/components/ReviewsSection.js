@@ -98,7 +98,7 @@ export default function ReviewsSection() {
                     : 'bg-surface-container-low text-on-surface-variant border-outline-variant/30 hover:border-tertiary-fixed-dim hover:text-primary'
                 }`}
               >
-                {cat} <span className="opacity-70 text-[10px]">({count})</span>
+                {cat} <span className={`text-[10px] font-semibold ${isActive ? 'text-on-primary/90' : 'text-primary'}`}>({count})</span>
               </button>
             );
           })}
@@ -131,7 +131,7 @@ export default function ReviewsSection() {
                         <h3 className="font-headline-sm text-base font-bold text-primary group-hover:text-tertiary-dark transition-colors line-clamp-1">
                           {review.name}
                         </h3>
-                        <p className="text-[11px] text-on-surface-variant/70 line-clamp-1 font-body-md">
+                        <p className="text-[11px] text-on-surface-variant line-clamp-1 font-body-md font-medium">
                           {review.profile || 'Verified Client'}
                         </p>
                       </div>
@@ -148,7 +148,7 @@ export default function ReviewsSection() {
                   </div>
 
                   {/* Stars & Date */}
-                  <div className="flex items-center justify-between mb-4 pb-3 border-b border-outline-variant/15 text-xs text-on-surface-variant/70">
+                  <div className="flex items-center justify-between mb-4 pb-3 border-b border-outline-variant/15 text-xs text-on-surface-variant font-medium">
                     <div className="flex items-center text-amber-500">
                       {[...Array(review.rating)].map((_, i) => (
                         <span key={i} className="material-symbols-outlined text-[16px] leading-none" style={{ fontVariationSettings: "'FILL' 1" }}>
@@ -156,7 +156,7 @@ export default function ReviewsSection() {
                         </span>
                       ))}
                     </div>
-                    <time className="text-[11px] font-medium">{review.date}</time>
+                    <time className="text-[11px] font-medium text-on-surface-variant">{review.date}</time>
                   </div>
 
                   {/* Review Text */}
@@ -170,7 +170,7 @@ export default function ReviewsSection() {
                   <span className="inline-block text-[10px] font-label-caps uppercase tracking-wider text-primary/80 bg-primary/5 px-2.5 py-1 rounded-md font-semibold border border-primary/10">
                     {review.tag}
                   </span>
-                  <span className="text-[10px] text-on-surface-variant/60 font-label-caps uppercase tracking-widest">
+                  <span className="text-[10px] text-on-surface-variant font-label-caps uppercase tracking-widest font-semibold">
                     Google Review
                   </span>
                 </div>

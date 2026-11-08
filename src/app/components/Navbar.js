@@ -21,7 +21,7 @@ export default function Navbar() {
       <header className="fixed top-0 md:top-8 w-full z-50 bg-surface border-b border-outline-variant/20 shadow-sm" >
         <div className="flex justify-between items-center h-20 px-gutter max-w-container-max mx-auto" >
           <Link className="flex items-center gap-3" href="/" >
-            <img src="/assets/img/LOGO_IMAGE_1.webp" alt="Arvind Law Associates Logo" className="w-12 h-12 object-contain rounded-md border border-outline-variant/30 bg-surface shadow-sm" />
+            <img src="/assets/img/LOGO_IMAGE_1.webp" alt="Arvind Law Associates Logo" width="48" height="48" className="w-12 h-12 object-contain rounded-md border border-outline-variant/30 bg-surface shadow-sm" />
             <div className="flex flex-col" >
               <div className="font-headline-sm text-headline-sm text-primary uppercase tracking-tighter leading-none mb-1" >
                 ARVIND LAW ASSOCIATES

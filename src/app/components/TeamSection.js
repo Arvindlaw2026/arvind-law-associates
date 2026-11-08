@@ -87,6 +87,8 @@ export default function TeamSection({
                   <img
                     src={member.image}
                     alt={member.name}
+                    width="320"
+                    height="320"
                     className="h-full w-auto max-w-full object-contain object-bottom transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
